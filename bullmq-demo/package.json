@@ -1,0 +1,17 @@
+{
+  "name": "bullmq-subscription-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/run-demo.ts"
+  },
+  "dependencies": {
+    "bullmq": "^5.52.1",
+    "ioredis": "^5.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.0"
+  }
+}
