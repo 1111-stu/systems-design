@@ -11,12 +11,14 @@
 | 项目 | 主题 | 核心知识点 |
 |------|------|-----------|
 | [bullmq-demo](./bullmq-demo) | 消息队列与任务调度 | BullMQ、Redis、定时任务、重试机制、幂等设计 |
+| [drizzle-migration-cicd-demo](./drizzle-migration-cicd-demo) | 数据库迁移与部署流程 | Drizzle Migration、预编译脚本、Docker、GitHub Actions、部署前迁移 |
 
 ## 学习路线
 
 ### 已有内容
 
 1. **消息队列与异步任务** — 用 BullMQ 实现订阅到期提醒，学习队列、Worker、定时调度、失败重试等核心概念
+2. **数据库迁移与部署** — 学习为什么 migration 更适合放在部署阶段执行，而不是绑在每次应用启动前
 
 ### 规划中
 
